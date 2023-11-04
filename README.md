@@ -25,95 +25,95 @@ Output:
 	Change to the /var/www directory.
 ```
 ## COMMAND 3: pwd - Print Working Directory
-
+```
 Syntax: 
 	pwd
 Code: 
 	pwd
 Output: 
 	/home/user (prints the current working directory).
- 
+ ```
 ## COMMAND 4: mkdir - Create Directory
-
+```
 Syntax: 
 	mkdir [directory]
 Code: 
 	mkdir my_directory
 Output:	
 	Creates a new directory named my_directory.
- 
+ ```
 ## COMMAND 5: touch - Create Empty File
-
+```
 Syntax: 
 	touch [filename]
 Code: 
 	touch newfile.txt
 Output: 
 	Creates a new empty file named newfile.txt.
- 
+ ```
 ## COMMAND 6: cp - Copy Files and Directories
-
+```
 Syntax: 
 	cp [options] source destination
 Code: 
 	cp file.txt /backup/
 Output: 
 	Copies file.txt to the /backup/ directory.
- 
+ ```
 ## COMMAND 7: mv - Move/Rename Files and Directories
-
+```
 Syntax: 
 	mv [options] source destination
 Code: 
 	mv oldfile.txt newfile.txt
 Output: 
 	Renames oldfile.txt to newfile.txt.
- 
+ ```
 ## COMMAND 8: rm - Remove Files and Directories
-
+```
 Syntax: 
 	rm [options] [file/directory]
 Code: 
 	rm file.txt
 Output: 
 	Deletes file.txt.
- 
+ ```
 ## COMMAND 9: cat - Concatenate and Display File Content
-
+```
 Syntax: 
 	cat [filename]
 Code: 
 	cat file.txt
 Output: 
 	Displays the content of file.txt.
- 
+ ```
 ## COMMAND 10: more - View File Content Page by Page
-
+```
 Syntax: 
 	more [filename]
 Code: 
 	more longfile.txt
 Output: 
 	Allows you to view the content of longfile.txt one page at a time.
- 
+ ```
 ## COMMAND 11: less - View File Content with Navigation
-
+```
 Syntax: 
 	less [filename]
 Code: 
 	less largefile.txt
 Output: 
 	Displays largefile.txt with navigation capabilities.
- 
+ ```
 ## COMMAND 12: head - Display Top Lines of a File
-
+```
 Syntax: 
 	head [options] [filename]
 Code: 
 	head -n 5 file.txt
 Output: 
 	Shows the first 5 lines of file.txt.
- 
+``` 
 ## COMMAND 13: tail - Display Bottom Lines of a File
 
 Syntax: 
